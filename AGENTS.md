@@ -1,78 +1,51 @@
-# AGENTS.md
+# AGENTS.md - Warbuffet
 
-> Universal guide for AI coding agents. Works with Claude Code, Cursor, GitHub Copilot, OpenAI Codex, Gemini, and other AI tools.
-
----
+> Universal guide for AI coding agents (Claude, Codex, Gemini, Cursor)
 
 ## Project Overview
 
-<!-- CUSTOMIZE: Add 1-2 sentences describing your project -->
+**Warbuffet** is a placeholder repository for future development.
 
----
+| Aspect | Details |
+|--------|---------|
+| Status | Not yet started |
+| Type | TBD |
 
-## Quick Start
-
-```bash
-npm install
-npm run dev
-```
-
-<!-- CUSTOMIZE: Update commands for your project -->
-
----
-
-## Code Style
-
-<!-- Don't add style rules here - use linters instead -->
-<!-- LLMs should follow existing code patterns in the codebase -->
-
-**Principles:**
-- Follow existing patterns in the codebase
-- Run linters before committing
-- Keep changes minimal and focused
-
----
-
-## Testing
-
-```bash
-npm test
-```
-
-**Before committing:** Ensure tests pass.
-
----
-
-## Project Structure
-
-<!-- CUSTOMIZE: Add your project structure -->
+## Current Contents
 
 ```
-project/
-├── src/           # Source code
-├── tests/         # Test files
-├── docs/          # Documentation
-└── package.json
+warbuffet/
+├── .claude/           # Claude Code config
+├── .cursor/rules/     # Cursor IDE rules
+├── .github/           # GitHub config
+├── AGENTS.md          # This file
+├── LICENSE            # MIT License
+├── README.md          # Project readme
+└── SECURITY.md        # Security policy
 ```
 
----
+## When Development Starts
 
-## Key Files
+Update this file with:
+- Project description
+- Tech stack
+- Quick commands
+- Project structure
+- Code style guidelines
 
-| File | Purpose |
-|------|---------|
-| `.claude/CLAUDE.md` | Claude Code instructions |
-| `.cursor/rules/` | Cursor IDE rules |
-| `docs/BEST_PRACTICES.md` | Coding principles |
+## General Guidelines
 
----
+### Code Quality
+- Follow DRY (Don't Repeat Yourself)
+- Use SSOT (Single Source of Truth)
+- Make minimal, focused changes
+- Follow existing patterns
 
-## Security
-
+### Security
 - Never commit `.env` files
 - Validate all inputs
 - Use environment variables for secrets
 
 ---
 
-**Last Updated:** <!-- DATE -->
+**Last Updated**: 2026-01-08

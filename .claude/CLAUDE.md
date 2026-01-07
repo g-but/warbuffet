@@ -1,15 +1,26 @@
-# Project Guide for Claude
+# Warbuffet
 
-<!-- CUSTOMIZE: Project name and description -->
+## Overview
 
-## Quick Start
+Warbuffet is a **placeholder repository** for future development. Currently contains only configuration and security files.
 
-```bash
-npm install
-npm run dev
-```
+## Status
 
-<!-- CUSTOMIZE: Update commands -->
+**Project Status**: Not yet started
+
+This repository is prepared with:
+- Security policy (SECURITY.md)
+- Agentic development files
+- MIT License
+
+## When Development Begins
+
+When this project is initiated, update this file with:
+1. Project description and purpose
+2. Tech stack details
+3. Quick start commands
+4. Architecture overview
+5. Code locations
 
 ## Critical Rules
 
@@ -17,15 +28,6 @@ npm run dev
 2. **Minimal changes** - Only modify what's necessary
 3. **Run tests** - Verify changes don't break existing functionality
 4. **Follow patterns** - Use existing code style in the codebase
-
-## Key Files
-
-<!-- CUSTOMIZE: List important files -->
-
-| File | Purpose |
-|------|---------|
-| `AGENTS.md` | Universal agent guide |
-| `docs/` | Documentation |
 
 ## Don't
 
@@ -36,4 +38,4 @@ npm run dev
 
 ---
 
-**See `AGENTS.md` for full documentation.**
+**See `AGENTS.md` for universal agent guidelines.**
